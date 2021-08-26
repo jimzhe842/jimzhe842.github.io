@@ -294,7 +294,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 		.row > * {
@@ -537,7 +537,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: center;
 			}
 
 				.row > * {
@@ -782,7 +782,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: center;
 			}
 
 				.row > * {
@@ -1027,7 +1027,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: center;
 			}
 
 				.row > * {
@@ -1272,7 +1272,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: center;
 			}
 
 				.row > * {
@@ -1517,7 +1517,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: center;
 			}
 
 				.row > * {
@@ -1762,7 +1762,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: center;
 			}
 
 				.row > * {
@@ -3509,4 +3509,39 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+
+	.caption {
+		text-align: center;
+		font-style: italic;
+		font-size: 1rem;
+	}
+
+	#contacts-list {
+		display: flex;
+		justify-content: center;
+		list-style: none;
+		margin-right: 1rem;
+	}
+
+	#contacts-list li {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	.fa-icon-style {
+		border: none;
+		font-size: 2rem;
+	}
+
+	.to-top {
+		float: right;
+	}
+
+	#personal-photo {
+		height: 300px;
+		width: 290px;
+		margin-left: 10rem;
+		border-radius: 50%;
+		border: 2px solid #e5e5e5;
 	}
