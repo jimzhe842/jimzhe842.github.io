@@ -3539,9 +3539,9 @@ input, select, textarea {
 	}
 
 	#personal-photo {
-		height: 300px;
-		width: 290px;
+		height: 250px;
+		width: 200px;
 		margin-left: 10rem;
-		border-radius: 50%;
+		/* border-radius: 50%; */
 		border: 2px solid #e5e5e5;
 	}
