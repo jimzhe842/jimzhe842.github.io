@@ -3545,3 +3545,7 @@ input, select, textarea {
 		/* border-radius: 50%; */
 		border: 2px solid #e5e5e5;
 	}
+
+	#about {
+		padding: 5rem 0 0 0;
+	}
